@@ -1,0 +1,108 @@
+<form action="🔥🔥🔥 CHANGE THIS 🔥🔥🔥" method="POST" class="formbackend-form">
+  <div class="formbackend-field">
+    <label for="name">Your Name</label>
+    <input type="name" id="name" name="name" placeholder="John Doe" required="true" />
+  </div>
+
+  <div class="formbackend-field">
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="johndoe@example.com" required="true" />
+  </div>
+
+  <div class="formbackend-field">
+    <label for="phone_number">Your Phone Number</label>
+    <input type="text" id="phone_number" name="phone_number" placeholder="### ### ####" required="true" />
+  </div>
+
+  <div class="formbackend-field">
+    <label for="appointment_date">Date of your appointment</label>
+    <input type="date" id="appointment_date" name="appointment_date" required="true" />
+  </div>
+
+  <div class="formbackend-field">
+    <label for="appointment_time">Time of your appointment</label>
+    <input type="time" id="appointment_time" name="appointment_time" required="true" />
+  </div>
+
+  <div class="formbackend-field">
+    <label for="additional_comments">Additional information</label>
+    <textarea id="additional_information" name="additional_information" placeholder="Any additional information"></textarea>
+  </div>
+
+  <div class="formbackend-field">
+    <button type="submit">Send</button>
+  </div>
+</form>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+  .formbackend-form {
+    width: 400px;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 24px;
+  }
+  .formbackend-form .formbackend-field:not(:first-child) {
+    margin-top: 16px;
+  }
+  .formbackend-form label {
+    display: block;
+  }
+  .formbackend-form input {
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+  }
+  .formbackend-form textarea {
+    min-height: 100px;
+  }
+  .formbackend-form input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 0px;
+    margin-right: 8px;
+    display: inline-block;
+  }
+  .formbackend-form .form-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .formbackend-form textarea,
+  .formbackend-form input,
+  .formbackend-form select {
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  .formbackend-form ::placeholder {
+    opacity: 0.8;
+  }
+  .formbackend-form button {
+    padding: 0 26px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+  }
+  .formbackend-form button:hover {
+    opacity: 0.9;
+  }
+</style>
